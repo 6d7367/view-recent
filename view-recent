@@ -1,6 +1,6 @@
 #!/usr/bin/env escript
 %% -*- erlang -*-
-%%! -smp enable -sname factorial -mnesia debug verbose
+%%! -smp enable
 main(_) ->
 	compile:file(view_recent),
 	view_recent:start()
